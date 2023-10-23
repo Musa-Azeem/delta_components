@@ -1,4 +1,4 @@
-package com.example.delta.util
+package com.example.delta.submodules.util
 
 import android.content.Context
 import android.util.Log

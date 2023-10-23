@@ -1,4 +1,4 @@
-package com.example.delta.util
+package com.example.delta.submodules.util
 
 import kotlin.math.E
 import kotlin.math.pow
