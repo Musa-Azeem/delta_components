@@ -8,10 +8,10 @@ import java.io.File
 import java.io.FileOutputStream
 import java.util.*
 
-class FilesHandlerCore(private val applicationContext: Context,
-                       private val filesDir: File,
-                       private val appStartTimeMillis: Long,
-                       private val appStartTimeReadable: String) {
+open class FilesHandlerCore(private val applicationContext: Context,
+                            private val filesDir: File,
+                            private val appStartTimeMillis: Long,
+                            private val appStartTimeReadable: String) {
 
     // Files
     private lateinit var dataFolderName: String
